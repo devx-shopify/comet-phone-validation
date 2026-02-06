@@ -47,11 +47,5 @@ function Extension() {
     };
   });
 
-  if (isValid) return null;
-
-  return (
-    <s-banner heading="Phone number required" tone="critical">
-      <s-text>{PHONE_ERROR_MESSAGE}</s-text>
-    </s-banner>
-  );
+  return null;
 }
